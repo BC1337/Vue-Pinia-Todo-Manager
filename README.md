@@ -1,35 +1,43 @@
-# pinia
+# Vue Pinia Todo Manager
+Vue Pinia Todo Manager is a simple web application built using Vue.js and Pinia store. The application demonstrates how to manage state using Pinia store in a Vue.js application.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Features
+Add new todo
+Edit existing todo
+Mark todo as favorite
+Delete todo
+Filter todos by favorite
+Getting Started
+Prerequisites
+Before getting started with this project, you should have the following installed on your computer:
 
-## Recommended IDE Setup
+Node.js
+Vue CLI
+Installation
+Clone the repository:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```
+git clone https://github.com/BC1337/Vue-Pinia-Todo-Manager.git
+Navigate to the project directory:
+```
 
-## Customize configuration
+```
+cd Vue-Pinia-Todo-Manager
+Install the dependencies:
+```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```
 npm install
+Start the development server:
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+```
+npm run serve
+Open the application in your browser at http://localhost:8080
 ```
 
-### Load JSON Placeholder Data
-
-```sh
-json-server --watch ./data/db.json
-```
-
-### Compile and Minify for Production 
-
-```sh
-npm run build
-```
+## Built With
+Vue.js - The web framework used
+Pinia - State management library for Vue.js
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
